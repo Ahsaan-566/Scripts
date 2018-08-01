@@ -1,0 +1,108 @@
+12-16 18:56:42.627 127.0.0.1:54321       24065  #r thread INFO: Found XGBoost backend with library: xgboost4j
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Your system supports only minimal version of XGBoost (no GPUs, no multithreading)!
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: ----- H2O started  -----
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Build git branch: rel-wheeler
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Build git hash: 1de6d68cab3cfe79531fc68b28d96b938d194ca1
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Build git describe: jenkins-3.16.0.1-13-g1de6d68cab
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Build project version: 3.16.0.2 (latest version: 3.16.0.2)
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Build age: 16 days
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Built by: 'jenkins'
+12-16 18:56:42.642 127.0.0.1:54321       24065  #r thread INFO: Built on: '2017-11-30 15:19:55'
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: Watchdog Build git branch: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: Watchdog Build git hash: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: Watchdog Build git describe: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: Watchdog Build project version: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: Watchdog Built by: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: Watchdog Built on: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: XGBoost Build git branch: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: XGBoost Build git hash: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: XGBoost Build git describe: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: XGBoost Build project version: (unknown)
+12-16 18:56:42.643 127.0.0.1:54321       24065  #r thread INFO: XGBoost Built by: (unknown)
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: XGBoost Built on: (unknown)
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-drogon_local-1513432598135, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 127.0.0.1, -log_dir, /home/drogon/PycharmProjects/H2O/h2ologs/local-1513432598135]
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: Java availableProcessors: 4
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: Java heap totalMemory: 258.0 MB
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: Java heap maxMemory: 910.5 MB
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: Java version: Java 1.8.0_144 (from Oracle Corporation)
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: JVM launch parameters: [-Xmx1g]
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: OS version: Linux 4.4.0-103-generic (amd64)
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: Machine physical memory: 7.62 GB
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: X-h2o-cluster-id: 1513432599743
+12-16 18:56:42.644 127.0.0.1:54321       24065  #r thread INFO: User name: 'drogon'
+12-16 18:56:42.645 127.0.0.1:54321       24065  #r thread INFO: Opted out of sending usage metrics.
+12-16 18:56:42.645 127.0.0.1:54321       24065  #r thread INFO: IPv6 stack selected: false
+12-16 18:56:42.645 127.0.0.1:54321       24065  #r thread INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:545f:5ee1:912e:561f%wlp3s0/name:wlp3s0 (wlp3s0)
+12-16 18:56:42.645 127.0.0.1:54321       24065  #r thread INFO: Possible IP Address: wlp3s0 (wlp3s0), 192.168.1.110
+12-16 18:56:42.645 127.0.0.1:54321       24065  #r thread INFO: Possible IP Address: lo (lo), 127.0.0.1
+12-16 18:56:42.645 127.0.0.1:54321       24065  #r thread INFO: Selected H2O.CLOUD_MULTICAST_IF: name:lo (lo) doesn't support multicast
+12-16 18:56:42.660 127.0.0.1:54321       24065  #r thread INFO: H2O node running in unencrypted mode.
+12-16 18:56:42.663 127.0.0.1:54321       24065  #r thread INFO: Internal communication uses port: 54322
+12-16 18:56:42.663 127.0.0.1:54321       24065  #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54321/
+12-16 18:56:42.747 127.0.0.1:54321       24065  #r thread INFO: H2O cloud name: 'sparkling-water-drogon_local-1513432598135' on /127.0.0.1:54321, discovery address /237.64.76.96:60736
+12-16 18:56:42.747 127.0.0.1:54321       24065  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+12-16 18:56:42.747 127.0.0.1:54321       24065  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 drogon@127.0.0.1'
+12-16 18:56:42.747 127.0.0.1:54321       24065  #r thread INFO:   2. Point your browser to http://localhost:55555
+12-16 18:56:42.925 127.0.0.1:54321       24065  #r thread INFO: Log dir: '/home/drogon/PycharmProjects/H2O/h2ologs/local-1513432598135'
+12-16 18:56:42.925 127.0.0.1:54321       24065  #r thread INFO: Cur dir: '/home/drogon/PycharmProjects/H2O'
+12-16 18:56:42.934 127.0.0.1:54321       24065  #r thread INFO: Using HDFS configuration from /home/drogon/hadoop-2.8.1/conf
+12-16 18:56:42.934 127.0.0.1:54321       24065  #r thread INFO: HDFS subsystem successfully initialized
+12-16 18:56:42.942 127.0.0.1:54321       24065  #r thread INFO: S3 subsystem successfully initialized
+12-16 18:56:42.943 127.0.0.1:54321       24065  #r thread INFO: Flow dir: '/home/drogon/h2oflows'
+12-16 18:56:42.954 127.0.0.1:54321       24065  #r thread INFO: Cloud of size 1 formed [localhost/127.0.0.1:54321]
+12-16 18:56:42.996 127.0.0.1:54321       24065  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, ORC, PARQUET, CSV]
+12-16 18:56:42.996 127.0.0.1:54321       24065  #r thread INFO: Watchdog extension initialized
+12-16 18:56:42.997 127.0.0.1:54321       24065  #r thread INFO: XGBoost extension initialized
+12-16 18:56:42.997 127.0.0.1:54321       24065  #r thread INFO: Registered 2 core extensions in: 140ms
+12-16 18:56:42.997 127.0.0.1:54321       24065  #r thread INFO: Registered H2O core extensions: [Watchdog, XGBoost]
+12-16 18:56:43.613 127.0.0.1:54321       24065  #r thread INFO: Registered: 162 REST APIs in: 616ms
+12-16 18:56:43.614 127.0.0.1:54321       24065  #r thread INFO: Registered REST API extensions: [XGBoost, Algos, AutoML, Core V3, Core V4]
+12-16 18:56:43.825 127.0.0.1:54321       24065  #r thread INFO: Registered: 246 schemas in 211ms
+12-16 18:56:43.825 127.0.0.1:54321       24065  #r thread INFO: H2O started in 2637ms
+12-16 18:56:43.826 127.0.0.1:54321       24065  #r thread INFO: 
+12-16 18:56:43.826 127.0.0.1:54321       24065  #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54321
+12-16 18:56:43.826 127.0.0.1:54321       24065  #r thread INFO: 
+12-16 18:56:57.382 127.0.0.1:54321       24065  #08174-84 INFO: POST /4/sessions, parms: {}
+12-16 18:56:57.391 127.0.0.1:54321       24065  #08174-84 INFO: Locking cloud to new members, because water.api.schemas4.SessionIdV4
+12-16 18:56:57.416 127.0.0.1:54321       24065  #08174-85 INFO: POST /99/Rapids, parms: {ast=(setTimeZone "UTC"), session_id=_sid_b8d1}
+12-16 18:56:57.581 127.0.0.1:54321       24065  #08174-87 INFO: GET /3/Capabilities/API, parms: {}
+12-16 18:56:57.919 127.0.0.1:54321       24065  #08174-83 INFO: GET /3/ImportFiles, parms: {path=/home/drogon/Flight(classification).csv}
+12-16 18:56:58.050 127.0.0.1:54321       24065  #08174-86 INFO: POST /3/ParseSetup, parms: {source_frames=["nfs://home/drogon/Flight(classification).csv"], check_header=0}
+12-16 18:56:59.211 127.0.0.1:54321       24065  #08174-86 INFO: ParseSetup heuristic: cloudSize: 1, cores: 4, numCols: 12, maxLineLength: 68, totalSize: 439990975, localParseSize: 439990975, chunkSize: 27499520, numChunks: 15, numChunks * cols: 180
+12-16 18:56:59.247 127.0.0.1:54321       24065  #08174-88 INFO: POST /3/Parse, parms: {number_columns=12, source_frames=["nfs://home/drogon/Flight(classification).csv"], column_types=["Numeric","Numeric","Numeric","Numeric","Enum","Numeric","Enum","Numeric","Enum","Enum","Numeric","Enum"], single_quotes=False, parse_type=CSV, destination_frame=Flight_classification_.hex, column_names=["Month","DayofMonth","DepTime","ArrTime","UniqueCarrier","FlightNum","TailNum","ActualElapsedTime","Origin","Dest","Distance","Class"], delete_on_done=True, check_header=1, separator=44, blocking=False, na_strings=[None,None,None,None,None,None,[0],None,None,None,None,None], chunk_size=27499520}
+12-16 18:56:59.253 127.0.0.1:54321       24065  #08174-88 INFO: Total file size: 419.6 MB
+12-16 18:56:59.312 127.0.0.1:54321       24065  #08174-88 INFO: Parse chunk size 27499520
+12-16 18:57:17.194 127.0.0.1:54321       24065  FJ-1-7    INFO: Parse result for Flight_classification_.hex (7140596 rows):
+12-16 18:57:17.872 127.0.0.1:54321       24065  FJ-1-7    INFO:              ColV2    type          min          max         mean        sigma         NAs constant cardinality
+12-16 18:57:17.872 127.0.0.1:54321       24065  FJ-1-7    INFO:              Month: numeric      1.00000      12.0000      6.48116      3.41052                            
+12-16 18:57:17.873 127.0.0.1:54321       24065  FJ-1-7    INFO:         DayofMonth: numeric      1.00000      31.0000      15.7193      8.78596                            
+12-16 18:57:17.873 127.0.0.1:54321       24065  FJ-1-7    INFO:            DepTime: numeric      0.00000      2805.00      1319.35      506.239                            
+12-16 18:57:17.873 127.0.0.1:54321       24065  FJ-1-7    INFO:            ArrTime: numeric      0.00000      2923.00      1460.56      538.587                            
+12-16 18:57:17.873 127.0.0.1:54321       24065  FJ-1-7    INFO:      UniqueCarrier:  factor           AA           XE                                                    20
+12-16 18:57:17.873 127.0.0.1:54321       24065  FJ-1-7    INFO:          FlightNum: numeric      1.00000      9584.00      2042.66      1841.60                            
+12-16 18:57:17.874 127.0.0.1:54321       24065  FJ-1-7    INFO:            TailNum:  factor       000000       n816ca                                 70890            5092
+12-16 18:57:17.874 127.0.0.1:54321       24065  FJ-1-7    INFO:  ActualElapsedTime: numeric     -66.0000      1849.00      122.149      72.2821                            
+12-16 18:57:17.874 127.0.0.1:54321       24065  FJ-1-7    INFO:             Origin:  factor          ABE          YUM                                                   286
+12-16 18:57:17.874 127.0.0.1:54321       24065  FJ-1-7    INFO:               Dest:  factor          ABE          YUM                                                   289
+12-16 18:57:17.874 127.0.0.1:54321       24065  FJ-1-7    INFO:           Distance: numeric      11.0000      4962.00      723.740      571.146                            
+12-16 18:57:17.874 127.0.0.1:54321       24065  FJ-1-7    INFO:              Class:  factor    cancelled   very early                                                     6
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO: Chunk compression summary:
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:   Chunk Type                 Chunk Name       Count  Count Percentage        Size  Size Percentage
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:          C0L              Constant long           5           2.604 %      400  B          0.000 %
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:          C1N  1-Byte Integers (w/o NAs)          59          30.729 %     25.1 MB         18.729 %
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:           C2            2-Byte Integers         128          66.667 %    109.0 MB         81.271 %
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO: Frame distribution summary:
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:                        Size  Number of Rows  Number of Chunks per Column  Number of Chunks
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO: 127.0.0.1:54321    134.1 MB         7140596                           16               192
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:            mean    134.1 MB  7140596.000000                    16.000000        192.000000
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:             min    134.1 MB  7140596.000000                    16.000000        192.000000
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:             max    134.1 MB  7140596.000000                    16.000000        192.000000
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:          stddev        0  B        0.000000                     0.000000          0.000000
+12-16 18:57:17.890 127.0.0.1:54321       24065  FJ-1-7    INFO:           total    134.1 MB         7140596                           16               192
+12-16 18:57:18.328 127.0.0.1:54321       24065  #08174-88 INFO: GET /3/Frames/Flight_classification_.hex, parms: {column_offset=0, row_count=10, row_offset=0, column_count=-1}
+12-16 18:57:18.943 127.0.0.1:54321       24065  #08174-81 INFO: GET /, parms: {}
+12-16 18:57:18.948 127.0.0.1:54321       24065  #08174-81 INFO: GET /flow/index.html, parms: {}
+12-16 18:57:18.949 127.0.0.1:54321       24065  #08174-81 INFO: Trying to load resource /flow/index.html via classloader sun.misc.Launcher$AppClassLoader@446cdf90
+12-16 18:57:18.950 127.0.0.1:54321       24065  #08174-81 INFO: Trying to load resource /flow/index.html via classloader org.apache.spark.util.MutableURLClassLoader@13980900
+12-16 18:57:19.008 127.0.0.1:54321       24065  #08174-84 INFO: POST /3/Shutdown, parms: {}
+12-16 18:57:19.034 127.0.0.1:54321       24065  #08174-85 INFO: DELETE /4/sessions/_sid_b8d1, parms: {}

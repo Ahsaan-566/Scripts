@@ -1,0 +1,3 @@
+from Logistic_Regression import test_results
+
+print test_results

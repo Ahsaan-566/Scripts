@@ -1,0 +1,50 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+raw_data = read.csv('/home/drogon/Desktop/FYP/Airline-data/2005.csv')
+summary(raw_data)
+```
+
+```{r}
+head(raw_data)
+```
+
+
+```{r}
+data = read.csv('/home/drogon/Flight(classification).csv')
+summary(data)
+```
+
+
+
+```{r}
+head(data)
+```
+
+```{r}
+library(ggplot2)
+library(ggcorrplot)
+
+data = data[sapply(data,is.numeric)]
+head(data)
+```
+```{r}
+raw_data = raw_data[sapply(raw_data,is.numeric)]
+corr <- round(cor(raw_data),1)
+ggcorrplot(corr, hc.order = TRUE, 
+           type = "lower", 
+           lab = TRUE, 
+           lab_size = 4, 
+           method="circle", 
+           colors = c("tomato2", "white", "springgreen3"), 
+           title="Correlogram of Flight data", 
+           ggtheme=theme_bw)
+```
+

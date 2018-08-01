@@ -1,0 +1,8 @@
+2017-12-16 10:44:15,404   GET     200     118 ms  /3/Cloud
+2017-12-16 10:44:15,439   POST    200      23 ms  /4/sessions
+2017-12-16 10:44:15,650   POST    200     204 ms  /99/Rapids
+2017-12-16 10:44:15,670   GET     200      12 ms  /3/Capabilities/API
+2017-12-16 10:44:16,151   GET     301       0 ms  /
+2017-12-16 10:44:16,157   GET     200       4 ms  /flow/index.html
+2017-12-16 10:44:16,166   POST    200       5 ms  /3/Shutdown
+2017-12-16 10:44:16,174   DELETE  200       5 ms  /4/sessions/_sid_bfb2
