@@ -26,7 +26,7 @@ DestIndexer = StringIndexer(inputCol='Dest', outputCol='Index_Dest', handleInval
 assembler = VectorAssembler(inputCols = ['Index_UniqueCarrier']+['Index_TailNum']
 +['Index_Origin']+['Index_Dest'] + numeric_cols , outputCol= 'features')
 classifier = DecisionTreeClassifier(labelCol='label', featuresCol='features', maxBins=10000)
-#classifier = NaiveBayes(labelCol='label',featuresCol = 'features')
+
 pipeline = Pipeline(stages=[UniqueCarrierIndexer, TailNumIndexer, OriginIndexer, DestIndexer, labelIndexer, assembler, classifier])
 (train, test) = df.randomSplit([0.7, 0.3])
 
